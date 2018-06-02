@@ -1,0 +1,117 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+#about-me {
+    padding: 50px;
+}
+
+body {
+  background-image: url('../images/daylight.jpg');
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+nav {
+  background: #512698;
+  padding: 30px;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  padding: 5px;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.btn {
+  background: #512698;
+}
+
+.card {
+  height: 200px;
+  min-width: 1110px;
+  transition: transform .2s;
+  h5 {
+    color: #512698;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  p {
+    color: #512698;
+    font-size: 20px;
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+#tic {
+  background-image: url('../images/tictactoe.png');
+  background-position: center;
+  background-size: 85% 90%;
+  background-color: rgba(255, 255, 255, 0.65);
+  background-blend-mode: lighten;
+}
+
+#thrones {
+  background-image: url('../images/thrones.png');
+  background-position: center;
+  background-size: 85% 105%;
+  background-color: rgba(255, 255, 255, 0.65);
+  background-blend-mode: lighten;
+}
+
+#games {
+  background-image: url('../images/games.png');
+  background-position: center;
+  background-size: 95% 115%;
+  background-color: rgba(255, 255, 255, 0.65);
+  background-blend-mode: lighten;
+}
+
+#stocks {
+  background-image: url('../images/stocks.png');
+  background-position: center;
+  background-size: 105% 100%;
+  background-color: rgba(255, 255, 255, 0.65);
+  background-blend-mode: lighten;
+}
+
+#contact {
+  padding: 50px 50px 100px 50px;
+}
+
+#github {
+  padding-right: 10px;
+}
+
+#year {
+  text-align: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.dropdown-item {
+  background-color: #ffffff;
+  color: #512698;
+}
+
+.display-4 {
+  padding-bottom: 15px;
+  color: #ffffff;
+}
